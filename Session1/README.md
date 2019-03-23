@@ -1,1 +1,1 @@
-In this secssion we introduce Threejs.
+In this secssion we introduced Three.js
