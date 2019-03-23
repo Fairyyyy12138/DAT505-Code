@@ -61,15 +61,25 @@ scene.add(light2);
   // Add mesh to scene
   scene.add( mesh1 );
 
-  geometry2 = new THREE.IcosahedronBufferGeometry(200,1)
+  geometry2 = new THREE.IcosahedronBufferGeometry(158, 1)
   material2 = new THREE.MeshNormalMaterial( {wireframe :true} );
   mesh2 = new THREE.Mesh( geometry2, material2 );
   border2= new THREE.EdgesHelper(mesh2,0xffff00);
   mesh2.position.z = -1000;
 
+  geometry3 = new THREE.IcosahedronBufferGeometry(200, 1)
+  material3 = new THREE.MeshNormalMaterial( {wireframe :true} );
+  mesh3 = new THREE.Mesh( geometry3, material3 );
+  border3= new THREE.EdgesHelper(mesh3,0xffff00);
+  mesh3.position.z = -1000;
+
+
   // Add mesh to scene
   scene.add( mesh2 );
   scene.add( border2 );
+
+  scene.add( mesh3 );
+  scene.add( border3 );
 }
 
 var render = function () {
@@ -81,6 +91,8 @@ var render = function () {
   mesh2.rotation.x += 0.01; //Continuously rotate the mesh
   mesh2.rotation.y += 0.02;
 
+  mesh3.rotation.x += 0.05; //Continuously rotate the mesh
+  mesh3.rotation.y += 0.04;
   renderer.setClearColor(" #DDDDFF");
 
   // Render the scene
