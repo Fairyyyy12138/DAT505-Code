@@ -38,8 +38,8 @@ controls = new THREE.OrbitControls(camera, renderer.domElement);
 //Concatenation of the x and y values (open console to see)
 console.log("X:" +x+ ",Y : " +y+ ",Z:" +z);
 
-      var boxGeometry = new THREE.BoxGeometry(3, 3, 3);
-      var boxMaterial = new THREE.MeshLambertMaterial({color:  0xE79796});
+      var boxGeometry = new THREE.BoxGeometry(4, 4, 4);
+      var boxMaterial = new THREE.MeshLambertMaterial({color:  0xAE57A4});
       //The color of the material is assigned a random color
 //修改颜色，以坐标来定
  if (x >= 0 && y >= 0 && z >= 0){
@@ -47,14 +47,14 @@ console.log("X:" +x+ ",Y : " +y+ ",Z:" +z);
  } else if ( x >= 0 && y >=0 && z <= 0){
    boxMaterial = new THREE.MeshLambertMaterial({color: "#FFD700"});
  } else if ( x >= 0 && y <=0 && z < 0){
-   boxMaterial = new THREE.MeshLambertMaterial({color:"#BCEE68"});
+   boxMaterial = new THREE.MeshLambertMaterial({color:"#C4C400"});
  } else if ( x >= 0 && y <=0 && z >= 0){
-   boxMaterial = new THREE.MeshLambertMaterial({color: "#9370DB"});
+   boxMaterial = new THREE.MeshLambertMaterial({color: "#F75000"});
   } else if ( x <= 0 && y >=0 && z >= 0){
     boxMaterial = new THREE.MeshLambertMaterial({color: "#87CEEB"});
   } else if ( x <= 0 && y >=0 && z <= 0){
     boxMaterial = new THREE.MeshLambertMaterial({color: "#3A5FCD"});
-  } 
+  }
 /*if (x >= 0 && y >= 0){
   var boxMaterial = new THREE.MeshLambertMaterial({color:  0xFF00FF});
 }
