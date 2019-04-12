@@ -3,6 +3,7 @@ Session7
 In this session we introduced examples of cube appearing randomly and deforming and eyeballs follow the mouse.
 #### Description ####
 In the homework,i tried many different ways to make all the eyeballs follow the mouse, finally it works.
+#### Usage ####
 ```html
 <script src="build/three.min.js"></script>
 <script src="js/libs/stats.min.js"></script>
