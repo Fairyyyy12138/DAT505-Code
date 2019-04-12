@@ -26,8 +26,8 @@ function init() {
   controls = new THREE.OrbitControls(camera, renderer.domElement);
 
   //Create a two dimensional grid of objects, and position them accordingly
-  for (var x = -10; x <= 10; x += 5) { // Start from -35 and sequentially add one every 5 pixels
-    for (var y = -10; y <= 10; y += 5) {
+  for (var x = -20; x <= 10; x += 5) { // Start from -35 and sequentially add one every 5 pixels
+    for (var y = -20; y <= 10; y += 5) {
 
       var boxGeometry = new THREE.OctahedronBufferGeometry(4);
       //The color of the material is assigned a random color
@@ -46,13 +46,13 @@ function init() {
 
       mesh.position.x = x;
       mesh.position.z = y;
-      mesh.scale.y = 20;
+      mesh.scale.y = 10;
       var rotValue = Math.random() * 2 * Math.PI;//随机旋转方向
       mesh.rotation.x = rotValue;
       mesh.rotation.y = rotValue;
       mesh.rotation.z = rotValue;
 
-var randomValueX = (Math.random() * 0.1) - 0.05;//随机速度值-0.05到0.05
+var randomValueX = (Math.random() * 0.1) - 0.03;//随机速度值-0.05到0.05
 randomSpeedX.push(randomValueX);//将值给随机速度
 
 console.log( "randomSpeedX")
@@ -74,7 +74,7 @@ function drawFrame(){
   if (scaleCube > 3) scaleCube =-3;
 
   cubes.forEach(function(c,i){
-  c.rotation.x += 0.01
+  c.rotation.x += 0.05
   c.rotation.y += 0.01
   c.scale.x = scaleCube;
 });
