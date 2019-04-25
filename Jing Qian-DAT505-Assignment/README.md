@@ -26,6 +26,32 @@ From my point of view, only the circulars' change were too monotonous, so I thou
 
 Simple visual performance may be too monotonous, so I want to combine vision and audition in my project.So I chose a song that matched the rhythm of the rotating circles.The name of the song is 'The Rose (Karaoke Version)',its name also fits the theme of my project.This song was sung by Ameritz Digital Karaoke.
 
+#### file structure ####
+* audio
+  * Ameritz Digital Karaoke - The Rose (Karaoke Version).mp3
+* build
+  * three.js
+  * three.min.js
+* image
+  * image1.jpg
+  * image2.jpg
+  * image3.jpg
+  * image4.jpg  
+* js
+  * loaders
+     * mtlLoader.js
+     * OBJLoader.JS
+     * TDSLoader.js
+  * index.js
+* model
+  * obj
+    * male02
+      * rose.jpg
+      * rose.mtl
+      * rose.obj
+* index.html
+* README.md
+
 #### Usage ####
 ```html
 <script src='build/three.min.js'></script>
