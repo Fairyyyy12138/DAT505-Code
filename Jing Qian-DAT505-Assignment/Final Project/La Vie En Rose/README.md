@@ -1,6 +1,8 @@
 **La Vie En Rose**
 ========
-### Jing Qian B161006075 ###
+### Name : Jing Qian ###
+
+### NUA Student ID : B161006075 ###
 
 #### Links ####
 [DAT505-Code Github](https://github.com/Fairyyyy12138/DAT505-GitHub/tree/master/Jing%20Qian-DAT505-Assignment)
