@@ -32,11 +32,11 @@ Simple visual performance may be too monotonous, so I want to combine vision and
 * build
   * three.js
   * three.min.js
-* image
-  * image1.jpg
-  * image2.jpg
-  * image3.jpg
-  * image4.jpg  
+* screenshot
+  * screenshot1.jpg
+  * screenshot2.jpg
+  * screenshot3.jpg
+  * screenshot4.jpg  
 * js
   * loaders
      * mtlLoader.js
