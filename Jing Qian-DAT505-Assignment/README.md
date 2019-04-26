@@ -6,13 +6,13 @@
 [DAT505-Code Github](https://github.com/Fairyyyy12138/DAT505-GitHub/tree/master/Jing%20Qian-DAT505-Assignment)
 
 #### final screen composition ####
-![final screen composition](image/image1.jpg)
+![final screen composition](screenshot/screenshot1.jpg)
 
-![final screen composition](image/image2.jpg)
+![final screen composition](screenshot/screenshot2.jpg)
 
-![final screen composition](image/image3.jpg)
+![final screen composition](screenshot/screenshot3.jpg)
 
-![final screen composition](image/image4.jpg)
+![final screen composition](screenshot/screenshot4.jpg)
 
 #### An artistic work ####
 This final project is intended to express the relationship between life and love. Rose symbolizes love, and the circles symbolize life. I use the 3D rose and flat circles to express my project.
